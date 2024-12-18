@@ -6,5 +6,6 @@ namespace BookStore.DataAccess.Entities;
 public class GenreEntity: BaseEntity
 {
     public string Name { get; set; }
+    
     public virtual ICollection<BookEntity> Books { get; set; }
 }

@@ -19,4 +19,5 @@ public class BookEntity: BaseEntity
     
     public virtual ICollection<OrderItemEntity> OrderItems { get; set; }
     
+    
 }

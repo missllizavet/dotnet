@@ -12,4 +12,7 @@ public class OrderEntity: BaseEntity
     public int UserId { get; set; }
     public UserEntity User { get; set; } 
     public virtual ICollection<OrderItemEntity> OrderItems { get; set; }
+    
+    //public virtual ICollection<OrderItemEntity> OrderItems { get; set; }
 }
+
